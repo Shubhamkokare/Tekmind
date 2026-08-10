@@ -68,7 +68,6 @@ function Contact() {
                   size={22}
                   className="text-danger me-3 mt-1"
                 />
-
                 <div>
                   <h6>Email</h6>
                   <p className="text-muted">
