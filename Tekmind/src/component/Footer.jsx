@@ -102,17 +102,17 @@ function Footer() {
 
             <p className="mt-3">
               <FaMapMarkerAlt className="me-2 text-warning" />
-              Pune, Maharashtra, India
+              Cen 114/86, SN 72/5 Dighi, Sai Park, Bhosari Road, Dighi Camp, Pune, Maharashtra, India, 411015
             </p>
 
             <p>
               <FaPhoneAlt className="me-2 text-warning" />
-              +91 9876543210
+              +91 8999011583
             </p>
 
             <p>
               <FaEnvelope className="me-2 text-warning" />
-              info@tekmind.com
+              hr@tekmindsoft.in
             </p>
 
           </div>

@@ -44,7 +44,7 @@ function Contact() {
                 <div>
                   <h6>Address</h6>
                   <p className="text-muted">
-                    Pune, Maharashtra, India
+                    Cen 114/86, SN 72/5 Dighi, Sai Park, Bhosari Road, Dighi Camp, Pune, Maharashtra, India, 411015
                   </p>
                 </div>
               </div>
@@ -58,7 +58,7 @@ function Contact() {
                 <div>
                   <h6>Phone</h6>
                   <p className="text-muted">
-                    +91 9876543210
+                    +91 8999011583
                   </p>
                 </div>
               </div>
@@ -72,7 +72,7 @@ function Contact() {
                 <div>
                   <h6>Email</h6>
                   <p className="text-muted">
-                    info@tekmind.com
+                    hr@tekmindsoft.in
                   </p>
                 </div>
               </div>

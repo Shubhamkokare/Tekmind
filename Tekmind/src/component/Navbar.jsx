@@ -1,133 +1,68 @@
 import { Link } from "react-router-dom";
-import {
-  FaFacebookF,
-  FaLinkedinIn,
-  FaInstagram,
-  FaTwitter,
-  FaMapMarkerAlt,
-  FaPhoneAlt,
-  FaEnvelope,
-} from "react-icons/fa";
 
-function Footer() {
+function Navbar() {
   return (
-    <footer className="bg-dark text-white pt-5 pb-3 mt-5">
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
       <div className="container">
 
-        <div className="row">
+        {/* Logo */}
+        <Link className="navbar-brand fw-bold fs-3" to="/">
+          Tekmind
+        </Link>
 
-          {/* Company Info */}
-          <div className="col-lg-4 col-md-6 mb-4">
-            <h3 className="fw-bold text-warning">Tekmind</h3>
+        {/* Mobile Toggle Button */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
 
-            <p className="mt-3">
-              We build modern websites, web applications, mobile applications,
-              and digital solutions to help businesses grow.
-            </p>
+        {/* Menu */}
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
 
-            <div className="d-flex gap-3 mt-4">
-              <a href="#" className="text-white fs-5">
-                <FaFacebookF />
-              </a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/">
+                Home
+              </Link>
+            </li>
 
-              <a href="#" className="text-white fs-5">
-                <FaInstagram />
-              </a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/about">
+                About
+              </Link>
+            </li>
 
-              <a href="#" className="text-white fs-5">
-                <FaTwitter />
-              </a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/services">
+                Services
+              </Link>
+            </li>
 
-              <a href="#" className="text-white fs-5">
-                <FaLinkedinIn />
-              </a>
-            </div>
-          </div>
+            <li className="nav-item">
+              <Link className="nav-link" to="/careers">
+                Careers
+              </Link>
+            </li>
 
-          {/* Quick Links */}
-          <div className="col-lg-2 col-md-6 mb-4">
-            <h5 className="fw-bold">Quick Links</h5>
+            <li className="nav-item">
+              <Link className="nav-link" to="/contact">
+                Contact
+              </Link>
+            </li>
 
-            <ul className="list-unstyled mt-3">
-
-              <li className="mb-2">
-                <Link to="/" className="text-white text-decoration-none">
-                  Home
-                </Link>
-              </li>
-
-              <li className="mb-2">
-                <Link to="/about" className="text-white text-decoration-none">
-                  About
-                </Link>
-              </li>
-
-              <li className="mb-2">
-                <Link to="/services" className="text-white text-decoration-none">
-                  Services
-                </Link>
-              </li>
-
-              <li className="mb-2">
-                <Link to="/careers" className="text-white text-decoration-none">
-                  Careers
-                </Link>
-              </li>
-
-              <li>
-                <Link to="/contact" className="text-white text-decoration-none">
-                  Contact
-                </Link>
-              </li>
-
-            </ul>
-          </div>
-
-          {/* Services */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <h5 className="fw-bold">Services</h5>
-
-            <ul className="list-unstyled mt-3">
-              <li className="mb-2">Web Development</li>
-              <li className="mb-2">Mobile App Development</li>
-              <li className="mb-2">UI/UX Design</li>
-              <li className="mb-2">Digital Marketing</li>
-              <li>Cloud Solutions</li>
-            </ul>
-          </div>
-
-          {/* Contact */}
-          <div className="col-lg-3 col-md-6 mb-4">
-            <h5 className="fw-bold">Contact</h5>
-
-            <p className="mt-3">
-              <FaMapMarkerAlt className="me-2 text-warning" />
-              Pune, Maharashtra, India
-            </p>
-
-            <p>
-              <FaPhoneAlt className="me-2 text-warning" />
-              +91 9876543210
-            </p>
-
-            <p>
-              <FaEnvelope className="me-2 text-warning" />
-              info@tekmind.com
-            </p>
-
-          </div>
-
-        </div>
-
-        <hr className="border-secondary" />
-
-        <div className="text-center">
-          © {new Date().getFullYear()} Tekmind. All Rights Reserved.
+          </ul>
         </div>
 
       </div>
-    </footer>
+    </nav>
   );
 }
 
-export default Footer;
+export default Navbar;

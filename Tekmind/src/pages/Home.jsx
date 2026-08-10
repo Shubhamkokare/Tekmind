@@ -2,7 +2,7 @@ import Hero from "../component/Hero";
 import About from "../component/About";
 import Services from "../component/Services";
 import Stats from "../component/Stats";
-import Team from "../component/Team";
+//import Team from "../component/Team";
 import Contact from "../component/Contact";
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
       <About />
       <Services />
       <Stats />
-      <Team />
+      {/* <Team /> */}
       <Contact />
     </>
   );
