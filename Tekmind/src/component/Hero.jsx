@@ -16,7 +16,7 @@ function Hero() {
         <div className="row align-items-center">
 
           <div className="col-lg-7">
-
+ 
             <h1 className="display-3 fw-bold text-white">
               Empowering Your Business
               <span className="text-warning"> With Smart IT Solutions</span>
