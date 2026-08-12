@@ -68,7 +68,7 @@ function Services() {
                 </div>
 
                 <h4 className="fw-bold">
-                  {service.title}
+                  {service.title} 
                 </h4>
 
                 <p className="text-muted mt-3">
