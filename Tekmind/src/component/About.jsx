@@ -16,7 +16,7 @@ function About() {
             />
           </div>
 
-          {/* Right Content */}
+          {/* Right Content */} 
           <div className="col-lg-6">
 
             <h5 className="text-primary fw-bold">

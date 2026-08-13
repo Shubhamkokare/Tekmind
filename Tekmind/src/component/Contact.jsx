@@ -8,7 +8,7 @@ function Contact() {
   return (
     <section className="py-5 bg-light">
       <div className="container">
-
+ 
         {/* Heading */}
         <div className="text-center mb-5">
           <h5 className="text-primary fw-bold">
