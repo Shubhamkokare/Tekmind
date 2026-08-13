@@ -9,7 +9,7 @@ function Contact() {
     <section className="py-5 bg-light">
       <div className="container">
  
-        {/* Heading */}
+        {/* Heading */} 
         <div className="text-center mb-5">
           <h5 className="text-primary fw-bold">
             CONTACT US

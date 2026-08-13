@@ -10,7 +10,7 @@ function Hero() {
         backgroundSize: "cover",
         backgroundPosition: "center",
         minHeight: "90vh",
-      }}
+      }} 
     >
       <div className="container">
         <div className="row align-items-center">

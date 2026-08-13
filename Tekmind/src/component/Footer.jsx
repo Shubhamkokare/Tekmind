@@ -107,7 +107,7 @@ function Footer() {
  
             <p>
               <FaPhoneAlt className="me-2 text-warning" />
-              +91 8999011583
+              +91 8999011583 
             </p>
             <p>
               <FaEnvelope className="me-2 text-warning" />
