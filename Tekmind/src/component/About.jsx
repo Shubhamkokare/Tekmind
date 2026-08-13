@@ -15,7 +15,7 @@ function About() {
               className="img-fluid rounded shadow"
             />
           </div>
-
+ 
           {/* Right Content */} 
           <div className="col-lg-6">
 
